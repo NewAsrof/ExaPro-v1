@@ -1,0 +1,199 @@
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-family: 'Varela Round', sans-serif; */
+    background-color: #fff;
+}
+
+
+/* Navbar Section */
+
+.navbar-logo {
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.navbar-logo:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bg-ink {
+    background-color: #723881;
+}
+
+.link a {
+    color: #e0e0e0;
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: #fff;
+}
+
+.navbar-center li {
+    font-size: 1rem;
+    padding-right: 18px;
+}
+
+.navbar-center i {
+    padding-right: 13px;
+}
+
+.fa-stack[data-count]:after {
+    position: absolute;
+    right: 0%;
+    top: -7%;
+    content: attr(data-count);
+    font-size: 60%;
+    padding: .6em;
+    border-radius: 999px;
+    line-height: .75em;
+    color: #fff;
+    background: #fa4659;
+    text-align: center;
+    min-width: 2em;
+    font-weight: bold;
+}
+
+.img-user {
+    width: 40px;
+}
+
+.navbar-right li {
+    padding-right: 15px;
+}
+
+
+/* Subjects Section  */
+
+.subjects {
+    padding: 35px;
+    overflow-x: hidden;
+}
+
+.carousel-control-prev-icon {
+    height: 80px;
+    width: 5%;
+}
+
+.carousel-control-next-icon {
+    height: 80px;
+    margin-right: 65px;
+}
+
+.carousel-control-next-icon:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f138";
+    font-size: 3rem;
+    color: #61f2f5;
+}
+
+.carousel-control-prev-icon:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f137";
+    font-size: 3rem;
+    color: #61f2f5;
+}
+
+.carousel-control-next {
+    width: 0%;
+}
+
+.carousel-control-prev {
+    width: 0;
+}
+
+.card-subjects {
+    width: 7rem;
+    padding: 25px 0;
+    text-align: center;
+    border: none;
+    color: #723881;
+    margin-right: 15px;
+}
+
+.card-body {
+    padding-bottom: 10px;
+}
+
+.link-item a {
+    color: #222831;
+    transition: 0.3s;
+}
+
+.link-item a:hover {
+    color: #723881;
+    text-decoration: none;
+}
+
+
+/* Footer Section  */
+
+.bg-grey {
+    background-color: #e0e0e0;
+    padding: 15px 0 15px 33px;
+    font-size: 0.9rem;
+    color: #6b778d;
+}
+
+@media (max-width: 600px) {
+    .navbar-logo {
+        font-weight: bold;
+        font-size: 1.2rem;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+    #left-menu {
+        left: 0;
+        position: absolute;
+        color: #fff;
+    }
+    #right-menu {
+        right: 0;
+        position: absolute;
+        color: #fff;
+    }
+    /* sidebar-mobile */
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+        -webkit-box-shadow: inset -12px 0px 16px -6px rgba(0, 0, 0, 0.34);
+        -moz-box-shadow: inset -12px 0px 16px -6px rgba(0, 0, 0, 0.34);
+        box-shadow: inset -12px 0px 16px -6px rgba(0, 0, 0, 0.34);
+    }
+    .sidenav ul {
+        list-style: none;
+        margin-left: 0;
+    }
+    .sidenav a {
+        padding: 8px 8px 20px 15px;
+        word-spacing: 10px;
+        text-decoration: none;
+        font-size: 1rem;
+        color: #222831;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover {
+        color: #723881;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 2rem;
+    }
+}

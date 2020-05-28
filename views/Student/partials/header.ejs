@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/04e89fb11d.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- Own Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>
+        <%= titlePage %>
+    </title>
+
+</head>
+
+<body>
+
+    <!-- Start Navbar Header -->
+    <nav class="navbar navbar-expand-lg bg-ink shadow-sm">
+
+        <a class="navbar-logo" href="/Student-Home" id="logo">ExaPro</a>
+
+        <a href="#" class="btn d-block d-sm-none" id="left-menu" onclick="openNav()">
+            <i class="fas fa-bars fa-lg"></i>
+        </a>
+        <a href="#" class="btn d-block d-sm-none" id="right-menu">
+            <i class="fas fa-ellipsis-h"></i>
+        </a>
+
+        <!-- Menu Item -->
+        <div class="collapse navbar-collapse navbar-hover">
+            <ul class="navbar-nav navbar-center mx-auto link">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/Student-Home"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-book-reader"></i> Ujian</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fab fa-readme"></i> Nilai</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <i class="far fa-comments"></i> Diskusi</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Left Menu For User -->
+        <div class="navbar-brand ml-auto p-0 m-0 d-none d-lg-block">
+            <ul class="navbar-nav navbar-right link">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fa-stack fa-sm has-badge">
+                            <i class="far fa-comment-dots fa-lg fa-stack-1x"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <span class="fa-stack fa-sm has-badge" data-count="9">
+                            <i class="far fa-bell fa-lg fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <img class="rounded-circle img-user pb-1" src="img/User1.png"> </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Menu Item Mobile -->
+        <div class="sidenav d-block d-sm-none" id="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <a class="nav-link" href="Student-Home">
+                <strong> <i class="fas fa-home"></i> </strong> Home </a>
+
+            <a class="nav-link" href="/Student-Profile"><i class="fas fa-book-reader"></i> Ujian</a>
+
+            <a class="nav-link" href="#"><i class="fab fa-readme"></i> Nilai</a>
+
+            <a class="nav-link" href="#"> <i class="far fa-comments"></i> Diskusi</a>
+            <hr>
+        </div>
+
+    </nav>
+    <!-- End Navbar Header -->
